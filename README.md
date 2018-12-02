@@ -8,11 +8,14 @@ You'll probably need to be on Ubuntu 16.04, or something else on which `nvidia-d
 When you're happily set up, run:
 
 ```docker pull gizatt/filament:latest
-python docker_run.py -i gizatt/filament:latest```
+python docker_run.py -i gizatt/filament:latest
+```
 
 and then in the root directory that that drops you into, run
 
-```./launch_demo.sh```
+```
+./launch_demo.sh
+```
 
 which should fire up a graphical window that is powered by Filament.
 
@@ -20,6 +23,8 @@ which should fire up a graphical window that is powered by Filament.
 
 Check out the version of Filament that you're interested in building an image for in the `filament` submodule, and then use the automated script:
 
-`python docker_build.py`
+```
+python docker_build.py
+```
 
 which will take a while, but should succeed. (I found the Filament build to be very sensitive, so I wouldn't be surprised if this breaks.)
