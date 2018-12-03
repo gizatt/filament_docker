@@ -11,7 +11,8 @@ RUN /tmp/docker_setup.sh
 COPY do_build.sh /filament
 RUN /filament/do_build.sh
 
-COPY launch_demo.sh /launch_demo.sh
+COPY launch_demo_pbr.sh /launch_demo_pbr.sh
+COPY launch_demo_helmet.sh /launch_demo_helmet.sh
 
 ENV LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH}
 ENV LIBRARY_PATH=/usr/local/lib:${LIBRARY_PATH}
