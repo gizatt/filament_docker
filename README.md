@@ -11,13 +11,7 @@ When you're happily set up, run:
 python docker_run.py -i gizatt/filament:latest
 ```
 
-and then in the root directory that that drops you into, run
-
-```
-./launch_demo.sh
-```
-
-which should fire up a graphical window that is powered by Filament.
+and then in the root directory that that drops you into, run one of the two demos (`launch_demo_*.sh`). One showcases a really nice art asset; one showcases an interactive editor that shows off the kind of variations PBR materials can achieve. (even in the absence of high-quality material assets).
 
 # Compiling a new image
 
