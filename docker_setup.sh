@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # version of clang we want to use
-CLANG_VERSION=5.0
+CLANG_VERSION=7
 # version of libcxx and libcxxabi we want to use
-CXX_VERSION=5.0.2   
+CXX_VERSION=7.0.0
 
 cd /filament
 

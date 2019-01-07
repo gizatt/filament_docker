@@ -1,5 +1,5 @@
-export CC=$(which clang-5.0)
-export CXX=$(which clang++-5.0)
+export CC=$(which clang-7)
+export CXX=$(which clang++-7)
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 export LIBRARY_PATH=/usr/local/lib:$LIBRARY_PATH
 
